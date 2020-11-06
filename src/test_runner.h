@@ -38,7 +38,6 @@ public:
 	~TestRunner();
 	template<class TestFunction>
 	void RunTest(TestFunction test_function, const std::string& test_function_name);
-
 private:
 	int fail_count;
 };
